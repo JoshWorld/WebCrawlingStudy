@@ -59,17 +59,25 @@
 
 **3주차 (Selenium 라이브러리 사용법)**
 
-- 3주차 강의슬라이드 : 준비중
+- 3주차 강의슬라이드
 - 동영상 강의 05-1 : [Selenium 라이브러리의 기초](https://youtu.be/2JownLkyRPY)
 - 동영상 강의 05-2 : [Selenium 라이브러리의 기초 / 실습문제, 라이브코딩](https://youtu.be/zPYhyk8LGlU)
-- 동영상강의 : 준비중
+
+**4주차 (Selenium + bs4)**
+
+- 4주차 강의슬라이드
+- 동영상 강의 06-1 : [Selenium + bs4 응용](https://youtu.be/HJX7Dhk_ng0)
+- 동영상 강의 06-2 : [Selenium + bs4 응용 2](https://youtu.be/HCmjGPQW0WY)
+
+
+
 
 
 ------
 
 ### 파이썬X웹크롤링 스터디
 
-#### 1주차(과제제출 마감일 : 9월 30일 토요일 오후 9시) 
+#### 1주차
 
 - 스터디/강의 참여/활용하기 : https://www.youtube.com/watch?v=AQozh9l01fY
 - 1주차 스터디 과제 : [practice01.pdf (Study/Week1에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Study/Week1/practice01.pdf)
@@ -78,7 +86,7 @@
   -  [1주차 스터디 문제해설](https://youtu.be/ClSH-dGiLo8)
   - [1주차 스터디 라이브코딩](https://youtu.be/V2gAIYzl568)
 
-#### 2주차(과제제출 마감일 : 10월 15일 일요일 오후 11시 50분)
+#### 2주차
 
 - 2주차 스터디 과제 : [pratice02.pdf (Study/Week2에서 다운로드 가능)](https://github.com/etilelab/webcrawling/blob/master/Study/Week2/practice02.pdf)
 
