@@ -25,7 +25,7 @@
 ------
 
 ### 파이썬X웹크롤링 강의목록
-[전체 강의 슬라이드 다운로드]
+[전체 강의 슬라이드 다운로드](https://github.com/etilelab/webcrawling/blob/master/파이썬웹크롤링.pdf)
 
 **1주차 (기초)**
 
@@ -76,7 +76,7 @@
 
 ------
 
-### 파이썬X웹크롤링 스터디
+### 파이썬X웹크롤링 스터디 (1~2주차)
 [스터디 슬라이드 다운로드](https://github.com/etilelab/webcrawling/blob/master/Study/스터디%20슬라이드.pdf)
 #### 1주차
 
