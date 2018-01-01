@@ -1,8 +1,27 @@
 import requests
-import json
 from bs4 import BeautifulSoup
 from urllib import parse
+import nltk
+from konlpy.tag import Twitter
+from matplotlib import font_manager, rc
+font_name = font_manager.FontProperties(fname="/Library/Fonts/AppleGothic.ttf").get_name()
+rc('font', family=font_name)
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
+t=Twitter()
+
+def analyze(content, keyword):
+    nouns = t.nouns(str(content))
+    ko=nltk.Text(nouns,name="분석")
+    ranking=ko.vocab().most_common(100)
+    tmpData=dict(ranking)
+    wordcloud=WordCloud(font_path="/Library/Fonts/AppleGothic.ttf",relative_scaling=0.2,background_color="white",) .generate_from_frequencies(tmpData)
+    plt.figure(figsize=(16,8))
+    plt.imsave(keyword + ".png", wordcloud)
+    plt.imshow(wordcloud)
+    plt.axis("off")
+    plt.show()
 
 def keyword_search(keyword, page_count):
 
@@ -32,9 +51,8 @@ def keyword_search(keyword, page_count):
         j = j * 10
 
 
-def get_comments(news_link, user_comment_count):
+def get_comments(news_link, comment_count, user_comment_count):
 
-    comment_count = 0
     comment_list = []
 
     headers = {
@@ -56,24 +74,46 @@ def get_comments(news_link, user_comment_count):
         c_count = int(int(str(soup).split('{"comment":')[1].split(",")[0])/20)
 
         contents = str(soup).split('"contents":"')
-        for i in range(0, len(contents)):
+        for i in range(1, len(contents)):
+            user_name = contents[i].split('userName":"')[1].split('","')[0]
+
             comment_content = contents[i].split('","userIdNo"')[0]
+            comment_time = contents[i].split('"modTime":"')[1].split('"')[0]
+
+            d["user_name"] = user_name
+            d["time"] = comment_time
+            d["comment_content"] = comment_content
+
             comment_count = comment_count + 1
 
             comment_list.append(comment_content)
-            if user_comment_count == comment_count:
-                return comment_list
+            if int(user_comment_count) == int(comment_count):
+                return comment_list, True
 
         if c_count < 1 or c_count == page:
-            break
+            return comment_list, False
         else:
             page = page + 1
 
 
 if __name__ == '__main__':
-    keyword = input("키워드를 입력해주세요 : ")
-    news = input("크롤링해올 뉴스 갯수를 입력해주세요 : ")
-    comments = input("크롤링해올 덧글 갯수를 입력해주세요 : ")
+    comment_list = []
+
+    keyword = input("$ 키워드를 입력해주세요 : ")
+    news = input("$ 크롤링해올 뉴스 갯수를 입력해주세요 : ")
+    comments = int(input("$ 크롤링해올 덧글 갯수를 입력해주세요 : "))
     news_links = keyword_search(keyword,news)
+
+    comment_count = 0
+    d = {}
+
     for news_link in news_links:
-        get_comments(news_link, comments)
+        l, flag = get_comments(news_link, comment_count, comments)
+        comment_list.extend(l)
+        comment_count = int(comment_count + len(l))
+
+        if flag is True:
+            break
+
+    analyze(comment_list, keyword)
+
