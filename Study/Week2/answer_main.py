@@ -48,7 +48,8 @@ def keyword_search(keyword, page_count):
                 i = i + 1
                 if i == int(page_count):
                     return naver_news_links
-        j = j * 10
+
+        j = j + 10
 
 
 def get_comments(news_link, comment_count, user_comment_count):
