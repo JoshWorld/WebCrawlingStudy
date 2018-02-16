@@ -7,12 +7,15 @@
   - 강의 스터디 활동
   - 강의 유튜브 링크 제공
   - 기타 강의 관련 정보 제공
-- **Naver blog** : http://blog.naver.com/luckperson7
+- **공식 기술블로그** : http://blog.naver.com/luckperson7
   - 강의 관련 홍보사항 제공
 
 ------
 
-### 파이썬X웹크롤링 강의 소개
+### 파이썬X웹크롤링 강의 소개 Season02 (2018)
+
+
+### 파이썬X웹크롤링 강의 소개 Season01 (2017)
 
 본 강의는 파이썬을 통해서 웹크롤링 (웹스크래핑)을 배워보는 과정이며 **총 4주의** 과정으로 이루어져있습니다.
 
@@ -20,12 +23,13 @@
 
 질문답변오픈카카오톡 : https://open.kakao.com/o/g0lry8y
 
+온라인 개인과외 및 관련 문의 : 카카오톡 possible7202
 
 
 ------
 
-### 파이썬X웹크롤링 강의목록
-[전체 강의 슬라이드 다운로드](https://github.com/etilelab/webcrawling/blob/master/파이썬웹크롤링.pdf)
+### 파이썬X웹크롤링 Season01 강의목록
+강의슬라이드 다운로드
 
 **1주차 (기초)**
 
