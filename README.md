@@ -85,7 +85,7 @@
 ------
 
 ### 파이썬X웹크롤링 스터디 (1~2주차)
-[스터디 슬라이드 다운로드](https://github.com/etilelab/webcrawling/blob/master/Study/스터디%20슬라이드.pdf)
+[스터디 슬라이드 다운로드](https://github.com/etilelab/WebCrawlingStudy/blob/master/Season01/Study/파이썬웹크롤링스터디.pdf)
 #### 1주차 : BeautifulSoup의 응용
 -  [스터디설명 및 문제소개](https://www.youtube.com/watch?v=AQozh9l01fY)
 -  [1주차 스터디 문제해설](https://youtu.be/ClSH-dGiLo8)
