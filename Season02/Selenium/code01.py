@@ -1,17 +1,14 @@
 from selenium import webdriver
-import time
-import requests
-from bs4 import BeautifulSoup
 
-browser = webdriver.Chrome("/Users/itaegyeong/Desktop/webcrawling/chromedriver")
+browser = webdriver.Chrome("/Users/itaegyeong/Desktop/webcrawling/Season02/Selenium/chromedriver")
 browser.get("https://www.instagram.com/accounts/login/")
 
 id_text = browser.find_element_by_name("username")
 pw_text = browser.find_element_by_name("password")
 
-id_text.send_keys("test")
-pw_text.send_keys("passwordtest")
+button = browser.find_element_by_tag_name("button")
 
-login_button = browser.find_element_by_tag_name('button').click()
+id_text.send_keys("test_id")
+pw_text.send_keys("testpassword")
+button.click()
 
-time.sleep(3)

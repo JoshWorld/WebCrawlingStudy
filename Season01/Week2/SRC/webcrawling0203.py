@@ -1,4 +1,4 @@
-import requests,operator,pandas,glob2
+import requests,operator,pandas, glob2
 from bs4 import BeautifulSoup
 from datetime import datetime
 
@@ -30,12 +30,12 @@ def analyze(content):
 
     #ranking이라는 변수를 사전형으로 변경
     ranking=ko.vocab().most_common(100)
-    tmpData=dict(ranking)
+    tmpData=dict(ranking)ㅇㅇ
 
     # 워드클라우드 설정
     wordcloud=WordCloud(font_path="/Library/Fonts/AppleGothic.ttf",relative_scaling=0.2,background_color="white",).generate_from_frequencies(tmpData)
 
-    #matplotlib 라이브러리를 통해 워드크라우드를 이미지 형식으로 보여줌
+    #matplotlib 라이브러리를 통해 워드크라우드를 이미지 형식으로 보여줌nou
     plt.figure(figsize=(16,8))
     plt.imshow(wordcloud)
     plt.axis("off")
