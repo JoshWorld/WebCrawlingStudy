@@ -1,6 +1,6 @@
 ### 파이썬X웹크롤링 강의/스터디 안내
 - **1대1 온라인 과외문의 : 카카오톡 possible7202**
-- **Youtube** :  https://www.youtube.com/channel/UC8trp6SJGnFGyvC1tT_4JLw
+- **Youtube** :  https://www.youtube.com/c/청송코딩교육
   - 강의 제공
 - **Github** : http://github.com/etilelab
   - 강의 소스코드/PDF 파일 제공
