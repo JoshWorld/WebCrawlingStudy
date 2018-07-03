@@ -1,19 +1,14 @@
-### 파이썬X웹크롤링 강의/스터디 안내
-- **1대1 온라인 과외문의 : 카카오톡 possible7202**
+### 파이썬X웹크롤링X업무자동화 강의 시즌1~시즌2
+- **1대1 온라인 과외문의 : https://open.kakao.com/o/sNzFf5I**
 - **Youtube** :  https://www.youtube.com/c/청송코딩교육
-
 - **Github** : http://github.com/etilelab
   - 강의 소스코드/PDF 파일 제공
-  - 강의 스터디 활동
-  - 강의 유튜브 링크 제공
-  - 기타 강의 관련 정보 제공
 - **공식 기술블로그** : http://blog.naver.com/luckperson7
-  - 강의 관련 홍보사항 제공
+  - 강의 관련 문서 및 코드 제공
 
 ------
 
 ### 업무자동화를 위한 셀레니움 강의 (2018)
-
 
 #### 셀레니움 기초다지기
 - 강의소개
@@ -24,11 +19,11 @@
 
 본 강의는 파이썬을 통해서 웹크롤링 (웹스크래핑)을 배워보는 과정이며 **총 4주의** 과정으로 이루어져있습니다.
 
-본 강의를 모두 수강하고나면, 파이썬을 통한 웹크롤링을 더욱 더 편하게 하실 수 있게 될 것입니다.
+본 강의를 모두 수강하고나면, 파이썬을 통한 웹크롤링 뿐만아니라 데이터분석 및 시각화까지 해결하실 수 있습니다.
 
 질문답변오픈카카오톡 : https://open.kakao.com/o/g0lry8y
 
-1:1 온라인 과외 및 관련 문의 : 카카오톡 possible7202
+1:1 온라인 과외 및 관련 문의 : https://open.kakao.com/o/sNzFf5I
 
 
 ------
@@ -70,7 +65,7 @@
 - 동영상 강의 05-1 : [Selenium 라이브러리의 기초](https://youtu.be/2JownLkyRPY)
 - 동영상 강의 05-2 : [Selenium 라이브러리의 기초 / 실습문제, 라이브코딩](https://youtu.be/zPYhyk8LGlU)
 
-**4주차 (Selenium + bs4)**
+**4주차 (Selenium + Beautifulsoup)**
 
 - 동영상 강의 06-1 : [Selenium + bs4 응용](https://youtu.be/HJX7Dhk_ng0)
 - 동영상 강의 06-2 : [Selenium + bs4 응용 2](https://youtu.be/HCmjGPQW0WY)
