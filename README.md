@@ -1,5 +1,5 @@
 ### 파이썬X웹크롤링X업무자동화 강의 시즌1~시즌2
-- **1대1 온라인 과외문의 : https://open.kakao.com/o/sNzFf5I**
+- **1대1 온라인 과외문의 : https://open.kakao.com/o/sqYdxCwc**
 - **Youtube** :  https://www.youtube.com/c/청송코딩교육
 - **Github** : http://github.com/etilelab
   - 강의 소스코드/PDF 파일 제공
